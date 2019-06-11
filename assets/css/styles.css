@@ -1,0 +1,152 @@
+/* imported fonts */
+@font-face {
+    font-family: 'Jungle Rock';
+    src: url('../fonts/jfjunroc-webfont.woff2') format('woff2'),
+         url('../fonts/jfjunroc-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Wild Alpha';
+    src: url('../fonts/101_wild_alpha-webfont.woff2') format('woff2'),
+         url('../fonts/101_wild_alpha-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'Jurassic Park';
+    src: url('../fonts/jurassic_park-webfont.woff2') format('woff2'),
+         url('../fonts/jurassic_park-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+/* CSS for the html */
+
+html, body {
+    height: 100%;
+    min-height: 100%;
+}
+
+body {
+    background-size: cover;
+}
+
+/* sets the background image */
+
+.bg {
+    background-image: url(../images/background-image.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100%;
+    min-width: 100%;
+}
+
+/* set background for header row */
+
+#header-div {
+    background-image: url(../images/div-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20vh;
+    border-radius: 20px;
+    position: relative;
+    top: 10px;
+    border-bottom: 20px groove #D9A25F
+    
+}
+
+/* styling for the header title */
+#header-title {
+    font-family: 'Jurassic Park',sans-serif;
+    color: #226A8C;
+    font-size: 9vh;
+    width: 100%;
+    letter-spacing: 3px;
+    margin-top: 10px;
+    margin-bottom: 6px;
+    background-color:#D9A25F;
+    border-radius: 20px;
+    border-bottom: 10px groove #226A8C;
+    padding: 0;
+
+}
+
+#subheader-title {
+    margin-top: 0;
+    font-family: 'Wild Alpha', sans-serif;
+    font-size: 1vh;
+    color: yellowgreen;
+    width: 100%;
+}
+/* set background for button-div element */
+
+#button-div {
+    background-image: url(../images/div-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 1vh;
+    border-radius: 20px;
+    border-bottom: 20px groove #D9A25F
+}
+
+/* set background for the gif-div element */
+
+#gif-div {
+    background-image: url(../images/div-background.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* styling for the input bar and submit button */
+.form-control {
+    background-color: black;
+    border-radius: 20px;
+
+}
+
+.form-control:focus {
+    color: whitesmoke;
+    background-color: black;
+}
+
+#input-bar {
+    margin-top: 10px;
+    margin-bottom: 10px; 
+}
+
+
+#choose-an-animal {
+    font-family: "Wild Alpha", sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: black;
+    border-bottom: 10px groove #226A8C;
+    border-radius: 20px;
+}
+
+/* styling for the card that will hold the gifs */
+
+#gif-card-header {
+
+}
+
+#gif-card-body {
+
+}
+
+/* styling for the footer */
+
+#footer-div {
+
+}
