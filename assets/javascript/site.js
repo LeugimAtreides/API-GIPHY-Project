@@ -110,4 +110,7 @@ $(document).ready(function() {
 
     $(document).on("click", ".new-button", showMeTheZoo);
 
+    // calling the renderButtons function to display any initial buttons
+    renderButtons();
+
 })
