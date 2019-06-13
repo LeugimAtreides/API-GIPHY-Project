@@ -47,6 +47,7 @@ body {
     background-size: cover;
     min-height: 100%;
     min-width: 100%;
+    
 }
 
 /* set background for header row */
@@ -56,27 +57,35 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 20vh;
+    margin-bottom: 15vh;
     border-radius: 20px;
     position: relative;
     top: 10px;
-    border-bottom: 20px groove #D9A25F
+    border-bottom: 20px groove #D9A25F;
+    border-top: 2px solid #8C4404;
+    border-left: 2px solid #8C4404;
+    border-right: 2px solid #8C4404;
+    
     
 }
 
 /* styling for the header title */
 #header-title {
     font-family: 'Jurassic Park',sans-serif;
-    color: #226A8C;
+    color: #5FB1D9;
     font-size: 9vh;
     width: 100%;
     letter-spacing: 3px;
     margin-top: 10px;
     margin-bottom: 6px;
-    background-color:#D9A25F;
+    background-color:#8C4404;
     border-radius: 20px;
     border-bottom: 10px groove #226A8C;
     padding: 0;
+    border-top: 2px solid #226A8C;
+    border-left: 2px solid #226A8C;
+    border-right: 2px solid #226A8C;
+    Line-height: 70px;
 
 }
 
@@ -84,7 +93,7 @@ body {
     margin-top: 0;
     font-family: 'Wild Alpha', sans-serif;
     font-size: 1vh;
-    color: yellowgreen;
+    color: #5FB1D9;
     width: 100%;
 }
 /* set background for button-div element */
@@ -94,9 +103,12 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 1vh;
+    margin-bottom: 5vh;
     border-radius: 20px;
-    border-bottom: 20px groove #D9A25F
+    border-bottom: 20px groove #D9A25F;
+    border-top: 2px solid #8C4404;
+    border-left: 2px solid #8C4404;
+    border-right: 2px solid #8C4404;
 }
 
 /* set background for the gif-div element */
@@ -106,6 +118,21 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 20px;
+    border-bottom: 20px groove #D9A25F;
+    border-top: 2px solid #8C4404;
+    border-left: 2px solid #8C4404;
+    border-right: 2px solid #8C4404;
+}
+
+.card {
+    margin-top: 20px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border: 2px black solid;
+    margin-bottom: 20px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
 }
 
 /* styling for the input bar and submit button */
@@ -126,6 +153,8 @@ body {
 }
 
 
+
+
 #choose-an-animal {
     font-family: "Wild Alpha", sans-serif;
     font-size: 15px;
@@ -133,20 +162,51 @@ body {
     background-color: black;
     border-bottom: 10px groove #226A8C;
     border-radius: 20px;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    margin-right: 20px;
 }
 
 /* styling for the card that will hold the gifs */
 
 #gif-card-header {
+    background-color: #8C4404;
+    font-family: 'Wild Alpha', sans-serif;
+    font-size: 30px;
+    color: #5FB1D9;
+    border-top-left-radius: inherit;
+    border-top-right-radius: inherit;
+    border: solid black 2px;
+    
 
 }
 
 #gif-card-body {
+    background-color: black;
 
 }
 
 /* styling for the footer */
 
 #footer-div {
+    background-color: transparent;
+    text-align: center;
+    margin-top: 14vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 
+}
+
+/* styling for the dynamically inserted buttons */
+.new-button {
+    font-family: "Wild Alpha", sans-serif;
+    font-size: 15px;
+    color: whitesmoke;
+    background-color: black;
+    border-bottom: 10px groove #226A8C;
+    border-radius: 20px;
+    border-top: solid 2px black;
+    border-left: solid 2px black;
+    border-right: solid 2px black;
+    margin-right: 20px;
 }
